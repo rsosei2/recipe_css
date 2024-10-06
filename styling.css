@@ -1,17 +1,17 @@
 /* styling.css */
 body{
     background-color: rgba(176, 34, 12, 0.604);
+    font-family: sans-serif;
 }
 .links{
     background-color: rgb(241, 241, 203);
     padding-top: 5px;
     padding-bottom: 5px;
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 .links a{
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(33, 33, 33);
     text-decoration: none;
 } 
@@ -19,8 +19,8 @@ body{
 .links li{
     list-style: none;
     display: inline;
-    margin: 30px;
-    margin-left: 90px;
+    margin: 80px;
+    
 }
 
 .section2{
@@ -31,7 +31,7 @@ body{
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 80px;
+    margin-top: 40px;
     }
     .box1 img{
         height: 200px;
@@ -67,8 +67,8 @@ body{
     }
 .section3{
     background-color: rgb(241, 241, 203); 
-    margin-top: 80px; 
-    height: 200px;
+    margin-top: 40px; 
+    height: 100px;
     font-family: sans-serif;
     padding: 60px;
     display: flex;
@@ -77,24 +77,24 @@ body{
  }
 .testimonial{
     font-size: 27px;
-    font-weight: lighter;
         font-style: italic;
-        color: rgb(91, 90, 90);
+        color: rgb(73, 71, 71);
         width: 620px;
         height: 100px;
         display: flex;  
         }
         .thor{
         position: relative;
+        font-style: italic;
         font-weight: bold;
-        left: 200px;
-        top: -20px;
+        left: 250px;
+        top: -40px;
         }
         .section4{
             display: flex;
             justify-content: center;
             padding: 70px;
-            height: 20%;
+            height: 100px;
         }
         .section4a{
           height: 100px;
@@ -145,6 +145,88 @@ body{
         }
 h1{
     text-align: center;
+    background-color:  rgb(241, 241, 203);
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 40px;
 }
  /* about to style chicken_stir-fry.html */
- 
+ .chick{
+    height: 400px;
+    background-color: rgb(241, 241, 203);
+
+ }
+ .stir img{
+    width: 300px;
+    height: auto;
+    border: 3px solid rgba(176, 34, 12, 0.604);
+    border-radius: 10px;
+    position: relative;
+    left: 750px;
+    top: 50px;
+ }
+ .fry{
+    width: 400px;
+    position: relative;
+    font-size: 20px;
+    left:160px;
+    top: -270px;
+ }
+ .what{
+    font-size: 40px;
+    position: relative;
+    left:160px;
+    top: -250px;  
+ }
+ .chic{
+    height: 400px;
+    background-color: rgb(241, 241, 203);
+
+ }
+ .sti img{
+    width: 400px;
+    height: auto;
+    border: 3px solid rgba(176, 34, 12, 0.604);
+    border-radius: 10px;
+    position: relative;
+    left: 730px;
+    top: 50px;
+}
+.fri{
+    width: 400px;
+    position: relative;
+    font-size: 20px;
+    left: 100px;
+    top: -270px;
+ }
+ .wha{
+    width: 500px;
+    font-size: 35px;
+    position: relative;
+    left: 100px;
+    top: -250px; 
+ } 
+ .ing{
+    background-color:  rgb(241, 241, 203);
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+ }
+ ul{
+    font-size: 20px;
+    text-align: center;
+ }
+ ul li{
+    list-style-type: none;
+
+ }
+ ol{
+    font-size: 20px;
+    text-align: justify;
+    
+ }
+
+ li{
+    margin-bottom: 10px;
+ }
