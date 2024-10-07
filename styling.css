@@ -22,29 +22,69 @@ body{
     margin: 80px;
     
 }
+@media (max-width: 800px) {
+    .links li{
+      font-size: 16px;
+      margin-top: 2px;
+      display: block;
+      margin: 10px;
+      position: relative;
+      left: -20px;
+     }
+  }
 
 .section2{
     height: 450px;
     font-family: sans-serif;
     background-color:  rgb(241, 241, 203);
-    display: flex;
-    flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 40px;
     }
+    @media (max-width: 800px) {
+        .section2{
+          flex-direction: column;
+          height: 850px;
+        }
+    }
+
     .box1 img{
         height: 200px;
         width: 200px; 
+        border-radius: 10px;
+    }
+    @media (max-width: 800px) {
+        .box1 img{
+            height: 220px;
+            width: 220px;   
+        }
     }
     .top{
      font-size: 20px;
+     position: relative;
+     left: 470px;
+     top: 30px;
+     }
+    @media (max-width: 800px) {
+        .top{
+            position: relative;
+            left: 90px;
+        }
     }
+
     .down{
     display: flex;
     flex-direction: row;
     justify-content: center;
     }
+    @media (max-width: 800px) {
+        .down {
+          flex-direction: column;
+          position: relative;
+          left: 90px;
+          top: 20px;
+        }
+      }
     .box1{
     border: 3px solid rgba(176, 34, 12, 0.604);
     height: 200px;
@@ -53,17 +93,39 @@ body{
     margin: 30px;
     
     }
+    @media (max-width: 800px) {
+        .box1 {
+          margin: 10px;
+          height: 220px;
+          width: 220px;
+        }
+      }
     .underbox1{
     width: 200px;
     margin: 29px;
+
     font-weight: lighter;
     position: relative;
     top: -50px;
+    }
+    @media (max-width: 800px) {
+        .underbox1{
+            margin-bottom: 90px;
+          position: relative;
+          top: -600px;
+          
+        }
     }
     .downbottom{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    }
+    @media (max-width: 800px) {
+        .downbottom {
+          flex-direction: column;
+          
+        }
     }
 .section3{
     background-color: rgb(241, 241, 203); 
@@ -74,7 +136,14 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+
  }
+ @media (max-width: 800px) {
+    .section3{ 
+
+    }
+}
+
 .testimonial{
     font-size: 27px;
         font-style: italic;
@@ -83,12 +152,25 @@ body{
         height: 100px;
         display: flex;  
         }
+
+        @media (max-width: 800px) {
+            .testimonial{
+              font-size: 20px;
+              width: 80%;
+            }
+          }
         .thor{
         position: relative;
         font-style: italic;
         font-weight: bold;
         left: 250px;
         top: -40px;
+        }
+        @media (max-width: 800px) {
+            .thor{ 
+             position: relative;
+             left: 20px;
+            }
         }
         .section4{
             display: flex;
@@ -103,17 +185,37 @@ body{
           border-radius: 5px;
           font-family: sans-serif;
         }
+        @media (max-width: 800px) {
+            .section4a{
+                height: 150px; 
+                position: relative;
+                top: -25px;
+            }
+        }
         .call{
           position: relative;
           top: 15px;
           left: 90px;
           color: black;
         }
+        @media (max-width: 800px) {
+            .call{
+              font-size: 25px;
+              position: relative;
+              left: 45px;
+            }
+        }
         .product{
         position: relative;
         left: 90px;
         color: black;
         font-size: 11px;
+        }
+        @media (max-width: 800px) {
+            .product{
+             position: relative;
+            left: 20px;
+            }
         }
         .up{
         border: 2px solid rgba(176, 34, 12, 0.604);
@@ -125,9 +227,16 @@ body{
         width: 100px;
         position: relative;
         left: 72%; 
-        top: -40px;
-         
+        top: -40px; 
         } 
+        @media (max-width: 800px) {
+            .up{
+             position: relative;
+             left: 32%; 
+             top: 5px; 
+            
+            }
+        }
         .copyright{
             background-color: rgb(241, 241, 203);
             height: 10%;
@@ -156,8 +265,14 @@ h1{
     background-color: rgb(241, 241, 203);
 
  }
+ @media (max-width: 800px) {
+    .chick{
+        height: 450px;
+        
+    }
+}
  .stir img{
-    width: 300px;
+    width: 260px;
     height: auto;
     border: 3px solid rgba(176, 34, 12, 0.604);
     border-radius: 10px;
@@ -165,6 +280,15 @@ h1{
     left: 750px;
     top: 50px;
  }
+ @media (max-width: 800px) {
+    .stir img{
+        width: 250px;
+        height: auto;
+        position: relative;
+        left: 105px;
+        top: 150px;
+    }
+}
  .fry{
     width: 400px;
     position: relative;
@@ -172,17 +296,33 @@ h1{
     left:160px;
     top: -270px;
  }
+ @media (max-width: 800px) {
+    .fry{
+        font-size: 15px;
+        position: relative;
+        left: 50px;
+        top: -270px;
+    }
+}
  .what{
     font-size: 40px;
     position: relative;
     left:160px;
     top: -250px;  
  }
+ @media (max-width: 800px) {
+    .what{
+        font-size: 25px;
+        position: relative;
+        left: 90px;
+        top: -260px; 
+    }
+}
  .chic{
     height: 400px;
-    background-color: rgb(241, 241, 203);
-
+    background-color: rgb(241, 241, 203)
  }
+
  .sti img{
     width: 400px;
     height: auto;
@@ -192,6 +332,15 @@ h1{
     left: 730px;
     top: 50px;
 }
+@media (max-width: 800px) {
+    .sti img{
+        width: 300px;
+        height: auto;
+        position: relative;
+        left: 85px;
+        top: 120px;
+    }
+}
 .fri{
     width: 400px;
     position: relative;
@@ -199,6 +348,14 @@ h1{
     left: 100px;
     top: -270px;
  }
+ @media (max-width: 800px) {
+    .fri{
+        font-size: 15px;
+        position: relative;
+        left: 50px;
+        top: -240px;
+    }
+}
  .wha{
     width: 500px;
     font-size: 35px;
@@ -206,6 +363,14 @@ h1{
     left: 100px;
     top: -250px; 
  } 
+ @media (max-width: 800px) {
+    .wha{
+        font-size: 25px;
+        position: relative;
+        left: 22px;
+        top: -230px; 
+    }
+}
  .ing{
     background-color:  rgb(241, 241, 203);
     padding: 10px;
