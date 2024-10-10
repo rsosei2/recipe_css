@@ -4,11 +4,7 @@ body{
     background-color: rgba(173, 176, 12, 0.604);
     font-family: sans-serif;
 }
-@media (max-width: 800px) {
-    .body{
-      
-     }
-  }
+
 .links{
     background-color: rgb(241, 241, 203);
     padding-top: 5px;
@@ -292,7 +288,7 @@ h1{
     .stir img{
         width: 250px;
         position: relative;
-        left: 65px;
+        left: 75px;
         top: 170px;
     }
 }
@@ -307,7 +303,7 @@ h1{
     .fry{
         font-size: 15px;
         position: relative;
-        left: 50px;
+        left: 40px;
         width: 300px;
     }
 }
@@ -346,7 +342,7 @@ h1{
         width: 300px;
         height: auto;
         position: relative;
-        left: 35px;
+        left: 50px;
         top: 150px;
     }
 }
@@ -361,7 +357,7 @@ h1{
     .fri{
         font-size: 15px;
         position: relative;
-        left: 50px;
+        left: 30px;
         top: -240px;
         width: 300px;
     }
